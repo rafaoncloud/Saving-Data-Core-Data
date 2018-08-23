@@ -13,6 +13,9 @@
 		0547F298212ED8290086B0F7 /* Saving_Data_Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0547F296212ED8290086B0F7 /* Saving_Data_Core_Data.xcdatamodeld */; };
 		0547F29A212ED82B0086B0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0547F299212ED82B0086B0F7 /* Assets.xcassets */; };
 		0547F29D212ED82B0086B0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547F29B212ED82B0086B0F7 /* LaunchScreen.storyboard */; };
+		0547F2A5212EDDBD0086B0F7 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547F2A4212EDDBD0086B0F7 /* PersistenceService.swift */; };
+		0547F2A8212EE5AF0086B0F7 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547F2A6212EE5AF0086B0F7 /* Person+CoreDataClass.swift */; };
+		0547F2A9212EE5AF0086B0F7 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547F2A7212EE5AF0086B0F7 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0547F299212ED82B0086B0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0547F29C212ED82B0086B0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0547F29E212ED82B0086B0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0547F2A4212EDDBD0086B0F7 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		0547F2A6212EE5AF0086B0F7 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0547F2A7212EE5AF0086B0F7 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0547F29B212ED82B0086B0F7 /* LaunchScreen.storyboard */,
 				0547F29E212ED82B0086B0F7 /* Info.plist */,
 				0547F296212ED8290086B0F7 /* Saving_Data_Core_Data.xcdatamodeld */,
+				0547F2A4212EDDBD0086B0F7 /* PersistenceService.swift */,
+				0547F2A6212EE5AF0086B0F7 /* Person+CoreDataClass.swift */,
+				0547F2A7212EE5AF0086B0F7 /* Person+CoreDataProperties.swift */,
 			);
 			path = "Saving Data Core Data";
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0547F292212ED8290086B0F7 /* ViewController.swift in Sources */,
+				0547F2A5212EDDBD0086B0F7 /* PersistenceService.swift in Sources */,
+				0547F2A9212EE5AF0086B0F7 /* Person+CoreDataProperties.swift in Sources */,
+				0547F2A8212EE5AF0086B0F7 /* Person+CoreDataClass.swift in Sources */,
 				0547F298212ED8290086B0F7 /* Saving_Data_Core_Data.xcdatamodeld in Sources */,
 				0547F290212ED8290086B0F7 /* AppDelegate.swift in Sources */,
 			);
